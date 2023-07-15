@@ -35,14 +35,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _EmmisionEntensity: 2
+    - _EmmisionEntensity: 1
     - _FrenelParam: 1.1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0.54
     m_Colors:
     - _SpecularColor: {r: 1, g: 0.76034176, b: 0, a: 1}
-    - _Tint: {r: 0.745283, g: 0.3058473, b: 0.6800379, a: 0}
+    - _Tint: {r: 0, g: 0.7275784, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &501414410556443129
 MonoBehaviour:
