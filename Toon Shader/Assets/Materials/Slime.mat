@@ -7,12 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Water
-  m_Shader: {fileID: -6465566751694194690, guid: ce9dba8bd7c8ed744ad84b82c462c3e4,
+  m_Name: Slime
+  m_Shader: {fileID: -6465566751694194690, guid: 2656ad4f3ead50943a3f0b1c111ac0f8,
     type: 3}
   m_ValidKeywords: []
-  m_InvalidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -36,43 +35,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _Amplitude: 0.5
-    - _Blend: 0
-    - _CastShadows: 1
-    - _Cull: 0
-    - _Depth: 15.8
-    - _DstBlend: 10
-    - _FaidingDistance: 192.62
-    - _FoamAmount: 9.82
-    - _FoamScale: 3.72
-    - _FoamSpeed: 2
-    - _FoanCutoff: 2.88
-    - _Noise_Scale: 47.22
-    - _Period: 10
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _ReceiveShadows: 1
-    - _RefractionHeight: -0.22
-    - _RefractionScale: 2.09
-    - _RefractionSpeed: 2.67
-    - _Scale: 5
-    - _ShadowIntensivity: 1
-    - _Speed: 1
-    - _SrcBlend: 5
-    - _Surface: 1
-    - _WaveContrlol: 1
-    - _Wave_Speed: 1
-    - _WorkflowMode: 1
-    - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
+    - _Smoothnes: 0.328
     m_Colors:
-    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
-    - _MainColor: {r: 0.32549012, g: 0.67058825, b: 0.77254903, a: 1}
-    - _Melkovodie: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 0.41960785}
+    - _Frenel_Color: {r: 0.11390365, g: 0.49056602, b: 0, a: 0}
+    - _Specular_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 0.56912255, g: 1, b: 0.504717, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &7226170255492280195
+--- !u!114 &4349472657113469488
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
